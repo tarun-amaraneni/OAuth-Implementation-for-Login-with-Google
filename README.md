@@ -1,11 +1,22 @@
-# Google OAuth 2.0 Login - Backend
+🚀 Step 1: Open Your Project in VS Code
+Open VS Code.
+Navigate to your project folder:
 
-## 🚀 Overview
-This project implements Google OAuth 2.0 authentication in a backend application.
 
-## 📌 Setup Instructions
+📦 Step 2: Install Required Packages
+Run this in the VS Code terminal (Ctrl + ~):
 
-### 1️⃣ **Clone the Repository**
-```sh
-git clone https://github.com/your-username/google-oauth-login.git
-cd google-oauth-login
+npm install express express-session passport passport-google-oauth20 dotenv
+
+
+▶️ Step 3: Run the Project
+Start your server with:
+
+node server.js
+
+
+🌐 Step 6: Test in Your Browser
+
+http://localhost:3000/auth/google
+Log in with Google.
+If successful, you’ll be redirected to /profile.
