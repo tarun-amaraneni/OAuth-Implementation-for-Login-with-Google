@@ -15,7 +15,7 @@ Start your server with:
 node server.js
 
 
-🌐 Step 6: Test in Your Browser
+🌐 Step 4: Test in Your Browser
 
 http://localhost:3000/auth/google
 Log in with Google.
