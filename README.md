@@ -27,7 +27,12 @@ Set redirect URI:
 If running locally: http://localhost:3000/auth/google/callback
 Copy Client ID and Client Secret.
 
-Step 7: Run the Project
+Step 5: Run the Project
 Start the server:
 
 node server.js
+
+
+Step 6: open 
+http://localhost:3000/
+in the browser.
