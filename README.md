@@ -30,7 +30,7 @@ Go to File -> Open Folder and select your google-auth-app folder.
 
 3. Initialize a Node.js Project:
 
-Open the terminal in VS Code
+Open the terminal in VS Code and run the following commands in your terminal:
 
 ````ruby
 npm init -y
