@@ -19,6 +19,7 @@ Setup Instructions
 
 1. Create a Project Folder:
 
+run the following commands in your terminal
 ````ruby
 mkdir google-auth-app
 cd google-auth-app
