@@ -1,6 +1,6 @@
 # Google OAuth 2.0 Authentication Example with Node.js, Express, and Passport
 
- Prerequisites
+ **Prerequisites**
 
 Before you begin, ensure you have the following installed:
 
@@ -17,7 +17,7 @@ If you see version numbers, you're ready to proceed.
 
 Setup Instructions  
 
-1. Create a Project Folder:
+1. **Create a Project Folder:**
 
 run the following commands in your terminal
 ````ruby
@@ -25,11 +25,11 @@ mkdir google-auth-app
 cd google-auth-app
 ````
 
-2. Open VS Code.
+2. **Open VS Code.**
 Go to File -> Open Folder and select your google-auth-app folder.
  
 
-3. Initialize a Node.js Project:
+3. **Initialize a Node.js Project:**
 
 Open the terminal in VS Code and run the following commands in your terminal:
 
@@ -38,13 +38,13 @@ npm init -y
 ````
 This creates a package.json file in your project directory.
 
-4. Install Dependencies:
+4. **Install Dependencies:**
 
 ````ruby
 npm install express express-session passport passport-google-oauth20 dotenv
 ````
 
-5. Create Project Files:
+5. **Create Project Files:**
 
 server.js: Create a file named server.js and paste your application's code into it.
 
@@ -57,7 +57,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 ````
 Replace your_google_client_id, and your_google_client_secret with your actual values.
 
-6. Obtain Google OAuth Credentials:
+6. **Obtain Google OAuth Credentials:**
 ```
 Go to the Google Cloud Console.
 Create a new project (or select an existing one).   
@@ -67,7 +67,7 @@ Select "Web application" as the application type.
 Add http://localhost:3000/auth/google/callback to the "Authorized redirect URIs".
 Copy the Client ID and Client Secret and paste them into your .env file.
 ```
-7. Run the Application:
+7. **Run the Application:**
 
 Start the server:
 ````ruby
