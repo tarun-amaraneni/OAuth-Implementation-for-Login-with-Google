@@ -11,14 +11,12 @@ Before you begin, ensure you have the following installed:
 
 Verify your installations by running the following commands in your terminal:
 
-
 node -v
 npm -v
 If you see version numbers, you're ready to proceed.
 
 *********************************************************************************   Setup Instructions  ******************************************************************************
 1.Create a Project Folder:
-
 
 mkdir google-auth-app
 cd google-auth-app
@@ -31,12 +29,10 @@ Open the terminal in VS Code (View -> Terminal or Ctrl + ~).
 
 3.Initialize a Node.js Project:
 
-
 npm init -y
 This creates a package.json file in your project directory.
 
 4.Install Dependencies:
-
 
 npm install express express-session passport passport-google-oauth20 dotenv
 
@@ -51,7 +47,6 @@ dotenv: Loads environment variables from .env.
 server.js: Create a file named server.js and paste your application's code into it.
 
 .env: Create a file named .env and add the following environment variables:
-
 
 SESSION_SECRET=your_secret_key
 GOOGLE_CLIENT_ID=your_google_client_id
